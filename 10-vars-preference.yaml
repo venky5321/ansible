@@ -10,9 +10,10 @@
     private: false 
   tasks:
   - name: check perference
-    vars:
-      WISHES: "Morning from Task variable"
+    #vars:
+      #WISHES: "Morning from Task variable"
     ansible.builtin.debug:
       msg: "Hello, Good {{WISHES}}."  
 
-      #
+      # 1. arguments
+      # 2. task level
