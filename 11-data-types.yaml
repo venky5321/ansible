@@ -6,13 +6,13 @@
       -Linux
       -Ansible
       -Shell
-      -Docker
+      -Python
     Experience: #map or dictionary
       DevOps: 3 #number
       AWS: 2
       Docker: 1
     RealProject: true #boolean
-    tasks:
-    - name: print variavbles
-      ansible.builtin.debug:
-        msg: "Course: {{Course}}, Tools covered: {{Tools}}, Experience is: {{Experience}}, is RealProject: {{RealProject}}"
+  tasks:
+  - name: print variavbles
+    ansible.builtin.debug:
+      msg: "Course: {{Course}}, Tools covered: {{Tools}}, Experience is: {{Experience}}, is RealProject: {{RealProject}}"
