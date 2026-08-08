@@ -15,4 +15,4 @@
     tasks:
     - name: print variavbles
       ansible.builtin.debug:
-        msg: "Course: {{Course}}, Tools covered: {{Tools}}, Experience is: {{Experience}}, is RealProject: {{RealProject}} "
+        msg: "Course: {{Course}}, Tools covered: {{Tools}}, Experience is: {{Experience}}, is RealProject: {{RealProject}}"
